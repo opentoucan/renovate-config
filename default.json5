@@ -1,6 +1,6 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
     "config:recommended",
     "docker:enableMajor",
     "helpers:pinGitHubActionDigests",
@@ -11,10 +11,10 @@
     ":dependencyDashboard",
     ":disableRateLimiting",
   ],
-  "dependencyDashboardTitle": "Renovate Dashboard 🤖",
-  "suppressNotifications": [
+  dependencyDashboardTitle: "Renovate Dashboard 🤖",
+  suppressNotifications: [
     "prEditedNotification",
     "prIgnoreNotification"
   ],
-  "onboarding": false
+  onboarding: false
 }
