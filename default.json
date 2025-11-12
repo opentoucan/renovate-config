@@ -16,5 +16,6 @@
     "prEditedNotification",
     "prIgnoreNotification"
   ],
-  "onboarding": false
+  "onboarding": false,
+  "allowedCommands": ["^bash \\./bump-dotnet-tfm\\.sh$"]
 }
