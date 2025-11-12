@@ -77,5 +77,6 @@ jobs:
           RENOVATE_PLATFORM: github
           RENOVATE_PLATFORM_COMMIT: true
           RENOVATE_REPOSITORY_CACHE: ${{ github.event.inputs.cache }}
+          RENOVATE_ALLOWED_COMMANDS: '^./.renovate/post-upgrade-.*$'
         with:
           token: ${{ steps.app-token.outputs.token }}
